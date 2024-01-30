@@ -13,7 +13,21 @@ module.exports = {
       width: {
         43: "180px",
       },
+      //Aca solo se extienden sin sobreescribir lo anterior
+      screens: {
+        tablet: "900px",
+      },
     },
+    //En esta posicion se sobreescriben,
+    //por lo que se deben escribir manualmente
+    /*
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      tablet: "900px",
+    },
+    */
   },
   plugins: [],
 };

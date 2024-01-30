@@ -4,61 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output.css" />
-    <title>Tailwind - Pseudoclase</title>
+    <title>Tailwind - Responsive Design</title>
   </head>
-  <body class="p-4">
-    <button
-      class="bg-orange-600 w-32 p-3 rounded-md after:content-['Hola'] after:absolute after:left-32 relative"
-    >
-      Haz clic aqui
-    </button>
-    <br />
-    <br />
-    <button
-      class="bg-orange-600 w-32 p-3 rounded-md after:content-[''] after:absolute after:left-32 relative after:border-8 after:border-l-orange-600 after:border-transparent after:top-4"
-    >
-      Haz clic aqui
-    </button>
-
-    <input
-      class="border ml-2 px-2 placeholder:text-orange-600 placeholder:italic"
-      type="text"
-      placeholder="Nombre"
-    />
-
-    <br />
-    <br />
-    <input
-      type="file"
-      class="file:bg-violet-100 file:border-0 file:rounded-lg file:text-violet-700 file:font-semibold file:px-3 hover:file:bg-violet-300"
-    />
-    <br /><br />
-    <ul class="list-disc ml-6 marker:text-red-500">
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-    </ul>
-    <ol class="list-decimal ml-6 marker:text-red-500 marker:font-bold">
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-    </ol>
-
-    <br /><br />
-    <p class="selection:bg-green-500 selection:text-white">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
-      doloribus sunt reiciendis quia saepe, non quibusdam pariatur ad dicta
-      culpa, iure laborum eligendi! Eligendi nisi excepturi ipsam aliquid,
-      possimus distinctio.
-    </p>
-    <br />
-    <p
-      class="first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left"
-    >
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
-      doloribus sunt reiciendis quia saepe, non quibusdam pariatur ad dicta
-      culpa, iure laborum eligendi! Eligendi nisi excepturi ipsam aliquid,
-      possimus distinctio.
-    </p>
+  <body class="sm:bg-amber-200 md:bg-blue-200 lg:bg-red-200 tablet:bg-lime-900">
+    <section class="xl:flex">
+      <div
+        class="border-2 border-black p-6 w-80 mx-auto mt-10 tablet:w-96 lg:w-[400px]"
+      >
+        <h2 class="text-xl font-bold sm:text-2xl tablet:text-4xl lg:text-3xl">
+          CodingTube
+        </h2>
+        <p class="mt-4 md:text-2xl">
+          En este canal de Youtube aprenderas HTML, CSS, Tailwind, JavaScript,
+          React, etc.
+        </p>
+      </div>
+      <div
+        class="border-2 border-black p-6 w-80 mx-auto mt-10 tablet:w-96 lg:w-[400px]"
+      >
+        <h2 class="text-xl font-bold sm:text-2xl tablet:text-4xl lg:text-3xl">
+          CodingTube
+        </h2>
+        <p class="mt-4 md:text-2xl">
+          En este canal de Youtube aprenderas HTML, CSS, Tailwind, JavaScript,
+          React, etc.
+        </p>
+      </div>
+      <div
+        class="border-2 border-black p-6 w-80 mx-auto mt-10 tablet:w-96 lg:w-[400px]"
+      >
+        <h2 class="text-xl font-bold sm:text-2xl tablet:text-4xl lg:text-3xl">
+          CodingTube
+        </h2>
+        <p class="mt-4 md:text-2xl">
+          En este canal de Youtube aprenderas HTML, CSS, Tailwind, JavaScript,
+          React, etc.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
